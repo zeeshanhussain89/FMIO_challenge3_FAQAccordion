@@ -17,5 +17,5 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://github.com/zeeshanhussain89/FMIO_challenge3_FAQAccordion
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
