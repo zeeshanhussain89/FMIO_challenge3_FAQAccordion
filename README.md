@@ -18,4 +18,4 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/zeeshanhussain89/FMIO_challenge3_FAQAccordion
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://zeeshanhussain89.github.io/FMIO_challenge3_FAQAccordion/
