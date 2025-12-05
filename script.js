@@ -2,17 +2,13 @@ const questions = document.querySelectorAll('.question');
 const questionsArr = [];
 
 function init() {
-  // questions.forEach((question) => {
-  //   const questionObj = { id: question.getAttribute('id'), state: 'collapsed' };
-  //   questionsArr.push(questionObj);
-  //   question.addEventListener('click', toggleState);
-  // });
-
-   questionsArr = questions.map((question) => {
+  questions.forEach((question) => {
     const questionObj = { id: question.getAttribute('id'), state: 'collapsed' };
+    questionsArr.push(questionObj);
     question.addEventListener('click', toggleState);
-     return questionObj;
   });
+
+  
   
   //   console.log(questionsArr);
 }
