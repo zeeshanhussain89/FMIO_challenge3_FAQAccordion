@@ -7,6 +7,12 @@ function init() {
   //   questionsArr.push(questionObj);
   //   question.addEventListener('click', toggleState);
   // });
+
+   questionsArr = questions.map((question) => {
+    const questionObj = { id: question.getAttribute('id'), state: 'collapsed' };
+    question.addEventListener('click', toggleState);
+     return questionObj;
+  });
   
   //   console.log(questionsArr);
 }
